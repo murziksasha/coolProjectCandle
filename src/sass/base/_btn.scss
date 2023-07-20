@@ -1,0 +1,23 @@
+.btn {
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s;
+  background-color: $main-color;
+  color: #272727;
+  width: 15rem;
+  height: 5.5rem;
+  font-family: Comfortaa;
+  font-size: 1.4rem;
+  font-style: normal;
+  line-height: normal;
+
+  &:hover, &:active {
+    background-color: #bf9413;
+  }
+  &:active {
+    position: relative;
+    top: 1px;
+    background-color: #000;
+    color: #fff;
+  }
+}

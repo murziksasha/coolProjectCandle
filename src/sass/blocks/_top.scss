@@ -1,0 +1,41 @@
+
+.top {
+
+  &__container {
+    position: relative;
+    padding: 4rem 0 15rem;
+  }
+
+  &__content{
+    max-width: 37rem;
+    padding: 15rem 0 15rem;
+  }
+
+  &__title {
+    font-family: Yeseva One;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__text {
+    font-family: Comfortaa;
+    font-style: normal;
+    margin-bottom: 4.9rem;
+  }
+
+  &__buy {
+  }
+
+  &__img{
+    position: absolute;
+    top: 0;
+    left: 24rem;
+    & img{
+      width: 93rem;
+    }
+  }
+
+
+
+}
+

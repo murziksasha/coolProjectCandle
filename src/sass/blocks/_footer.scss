@@ -1,0 +1,35 @@
+.footer {
+  background-color: #fff;  
+
+  &__container {
+    padding: 4.6rem 2.2rem 4.7rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+
+  &__social {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1.5rem;
+    width: 1.48rem;
+  }
+
+  .phone {
+    &::before{
+      content: '';
+    }
+  }
+}
+
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
