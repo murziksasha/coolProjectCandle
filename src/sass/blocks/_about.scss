@@ -1,0 +1,70 @@
+.about {
+  background-color: $main-dark;
+  color: #FAFAFA;
+  
+
+  &__container {
+    padding: 5rem 0 5rem;
+    display: flex;
+    align-items: center;
+    gap: 0 11rem;
+  }
+
+  &__content {
+    width: 37rem;
+  }
+
+  &__title {
+    font-size: 4rem ;
+    font-family: Yeseva One;
+    margin-bottom: 1.5rem;
+  }
+
+  &__text {
+    font-family: Comfortaa;
+    &:not(:last-child){
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &__list {
+    display: flex;
+    gap: 0 2rem;
+    align-items: center;
+    position: relative;
+    &::before{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: -11.2rem;
+      background-image: url(../../img/about/about-decor.png);
+      width: 2.4rem;
+      height: 3.3rem;
+      z-index: 5;
+    }
+    &::after{
+      content: '';
+      height: .1rem;
+      position: absolute;
+      bottom: 1.2rem;
+      left: -9.2rem;
+      z-index: 6;
+      background-color: #7B6152;
+      width: 1000%;
+    }
+  }
+
+  &__item {
+  }
+
+  &__item-img {
+    margin-bottom: 1rem;
+  }
+
+  &__item-text {
+    font-size: 1.1rem ;
+    margin-bottom: 8rem;
+
+  }
+}
+
